@@ -8,7 +8,7 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "ngoyaibraah@gmail.com";
 global.location = "Bumgoma,Kenya";
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://giftedte:SER3spXjIJSOwrPT@cluster0.ni61idp.mongodb.net/?retryWrites=true&w=majority";
+global.mongodb = process.env.MONGODB_URI || "postgresql://zokou_database_fei8_user:uWnfeWqhAjZ5GDZ4mCSrENdvowvx1vns@dpg-cqasuq88fa8c73assekg-a.oregon-postgres.render.com/zokou_database_fei8";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "postgres://giftedtech:ZMIkfrL3rHsvmfyGboVXKkeyoM0FPl6z@dpg-cpp83jlds78s73e39m10-a.oregon-postgres.render.com/giftedtech";
